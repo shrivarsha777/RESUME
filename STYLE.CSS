@@ -1,0 +1,70 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Resume Container */
+.resume-container {
+    background: #fff;
+    width: 80%;
+    max-width: 900px;
+    padding: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 40px;
+    color: #333;
+}
+
+.header p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Section Styling */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    font-size: 28px;
+    color: #444;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.section p, .section li {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.section ul {
+    list-style: square;
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    color: #666;
+}
